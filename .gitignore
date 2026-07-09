@@ -11,6 +11,9 @@ crash.*.log
 
 # Variable files that may contain secrets
 *.tfvars
+!dev.tfvars
+!staging.tfvars
+!prod.tfvars
 *.tfvars.json
 
 # CLI config
